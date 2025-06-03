@@ -1,0 +1,19 @@
+[package]
+name = "rcas_lib"
+version = "0.1.0"
+edition = "2024"
+
+[dependencies]
+anyhow = "1.0.98"
+hashbrown = "0.15.3"
+lazy_static = "1.5.0"
+linkme = "0.3.33"
+num-bigfloat = "1.7.2"
+num-bigint = "0.4.6"
+paste = "1.0.15"
+
+[features]
+default = ["debugger"]
+debugger = []
+
+
