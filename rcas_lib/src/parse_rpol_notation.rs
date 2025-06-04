@@ -5,9 +5,9 @@ use std::fs::read_to_string;
 use std::path::Path;
 use std::str::FromStr;
 
-use crate::context::Context;
-use crate::token_defs::{Token};
-use crate::number::Number;
+use crate::context::context::Context;
+use crate::tokens::token_defs::{Token};
+use crate::tokens::number::Number;
 
 /// Just a simple function to take the content at a file
 pub fn get_content_at(file: String) -> Result<String> {

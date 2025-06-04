@@ -1,8 +1,8 @@
 #![allow(missing_docs)]
 use crate::{
-    context::Context,
+    context::context::Context,
     stack_machine::{BufferedExecutor, RevPolStackMachine},
-    token_defs::Token,
+    tokens::token_defs::Token,
 };
 use anyhow::Result;
 

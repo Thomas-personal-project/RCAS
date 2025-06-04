@@ -1,10 +1,7 @@
-pub mod context;
-pub mod default_ctx_content;
-pub mod default_ctx_macros;
 pub mod parse_rpol_notation;
 pub mod stack_machine;
-pub mod token_defs;
-pub mod number;
+pub mod tokens;
+pub mod context;
 
 #[cfg(feature = "debugger")]
 pub mod debugger;
